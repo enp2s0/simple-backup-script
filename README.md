@@ -1,5 +1,5 @@
 # simple-backup-script
-## Written by Noah Brecht
+## Written by noahb01
 A simple SH-compatible shell script for backing up a filesystem.
 
 ## Info
