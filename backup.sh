@@ -32,9 +32,9 @@ function sighandler()
 
 if [ ! `whoami` == "root" ]; then
 	echo "This script must be run as user root (UID 0) in order to backup system files!"
-	echo "Please rerun this script as:"
-	echo "    sudo $0 $@"
-	exit
+	echo "This script will rerun itself with 'sudo'. It may ask for a password."
+	sudo $0 $@
+	exit 0
 fi
 
 clear
