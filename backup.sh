@@ -1,9 +1,5 @@
 #!/bin/sh
 
-##############################################################
-## BACKUP SCRIPT FOR nbrecht-server                         ##
-##############################################################
-
 DIRS=('/home /usr /var /etc /boot /bin /sbin /srv /lib /lib64 /opt /root')
 BKROOT='/mnt/backup/'
 
